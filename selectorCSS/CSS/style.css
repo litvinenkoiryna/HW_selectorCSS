@@ -1,0 +1,109 @@
+* {
+  transition: all 0.1s ease-in;
+}
+
+header {
+  background-color: rgb(62, 62, 78);
+  color: red;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+body {
+  background: #4b4848;
+  width: 100%;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-size: 34px;
+}
+
+h1 + h3 {
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+div {
+  width: 40em;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+p {
+  font-size: 28px;
+  color: white;
+}
+span.text {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+span.text__sake {
+  font-size: small;
+}
+
+div > p {
+  padding: 13px 13px 13px 13px;
+  margin: 0px;
+  background-color: gray;
+  border-top: gray;
+  border-bottom: gray;
+}
+div > p:hover {
+  background: blueviolet;
+  border-bottom: solid white;
+  border-top: solid white;
+}
+
+p:nth-of-type(odd) {
+  background-color: rgb(55, 55, 56);
+}
+
+.bon__appetit {
+  background-color: rgb(62, 62, 78);
+  color: red;
+  text-align: center;
+  width: 51%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+footer h3 {
+  margin-top: 28px;
+  padding-top: 25px;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+}
+
+div p:active {
+  background-color: bisque;
+}
+
+label {
+  cursor: pointer;
+}
+
+span.text::before {
+  content: "(";
+}
+
+span.text::after {
+  content: ")";
+}
+
+span.text__sake::before {
+  content: "^_^" "(";
+}
+span.text__sake::after {
+  content: ")";
+}
