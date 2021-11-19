@@ -1,0 +1,83 @@
+.block {
+  font-family: "Proxima Nova";
+  display: flex;
+  width: 1100px;
+}
+
+h2 {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  text-align: center;
+  /*margin-top: 20px;
+  width: 260px;
+  height: 51px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #9d9d9d;
+  font-weight: 300;
+  text-align: center;*/
+}
+
+p {
+  width: 260px;
+  height: 51px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #9d9d9d;
+  font-weight: 300;
+  font-family: "Proxima Nova";
+  text-align: center;
+}
+
+.class__one,
+.class__two,
+.class__three {
+  padding: 39px;
+  margin: 10px;
+  display: block;
+  align-content: center;
+  width: 263px;
+}
+
+.icon__one {
+  border: 1px solid #1175b9;
+  color: #1175b9;
+  font-size: 22px;
+  border-radius: 50%;
+  width: 64px;
+  height: 63px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon__two,
+.icon__three {
+  color: white;
+  border: 1px solid #1175b9;
+  background-color: #1175b9;
+  font-size: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 63px;
+  margin: auto;
+}
+.icon__one:hover {
+  color: #2a69a6;
+}
+.icon__three:hover {
+  color: #2a69a6;
+  background-color: white;
+}
+.icon__two:hover {
+  color: #2a69a6;
+  background-color: white;
+}
